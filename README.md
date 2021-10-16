@@ -23,7 +23,7 @@ This repository includes code defining the infrastructure below.
 
 ## Critical Vulnerabilities
 | Vulnerability   |   Description  |  Impact |
-|----------|-------------|------------|------------------|
+|----------|-------------|------------------|
 | 22/TCP SSH |  CVE-2018-6082 CVSS= 4.3    |    System is vulnerable to brute force and dictionary attacks. |
 | 80/TCP HTTP |   CVE-2019-6579 CVSS= 9.8   |  An attacker can execute system commands with administrative privileges.   |
 | 111/TCP rpcbind |   CVE-2017-8779 CVSS= 7.8   | Vulnerability disrupts memory allocation which can allow a remote attacker to cause a denial of service, aka. rpcbomb.    |
@@ -34,7 +34,7 @@ This repository includes code defining the infrastructure below.
 
 ## Traffic Profile 
 | Feature   |   Value  |  Description |
-|----------|-------------|------------|------------------|
+|----------|-------------|------------------|
 |Top Talkers (IP Addresses) | 172.16.4.205 <br> 10.0.0.201 <br>166.62.111.64 <br>185.243.115.84 | Machines that sent the most traffic  | 
 |Most Common Protocols | TLS<br>DNS<br>HTTP |Three most common protocols on the network| 
 |# of of Unique IP Addresses | 810 | Count of observed IP addreses |
