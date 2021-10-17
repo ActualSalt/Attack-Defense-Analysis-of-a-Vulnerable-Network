@@ -47,3 +47,11 @@ This repository includes code defining the infrastructure below.
 	- No downloads 
 
 ### Malicious Activity 
+- Torrent downloads 
+	- User 10.0.0.201 was detected HTTP GET request from "publicdomaintorrents.info"
+    - Wireshark detection 
+        - ip.addr == 10.0.0.201 && http && http.request.method == GET 
+- Custom domain installation 
+    - Wireshark unknown DNS protocol of an unknown domain 
+    - Scanning the user addresses 
+        - ip.addr == 10.6.12.0/24 && http.request.method == GET 
